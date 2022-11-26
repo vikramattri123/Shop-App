@@ -1,0 +1,289 @@
+
+.Navbar a:visited{
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.row1{
+ margin-top: 40px;
+ width: 100%;
+ height:100px;
+}
+.column {
+  float: left;
+  width: 49.52%;
+  height:40%;
+  margin:0px;
+}
+
+/* Clearfix (clear floats) */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column1 {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  .row1
+  {
+    margin-top: 35px; 
+  }
+  
+  /* Clearfix (clear floats) */
+  .row1::after {
+      margin-top: 35px;
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .header {
+    width: 100%;
+    height: 5rem;
+    /* padding: 0 10%; */
+    margin-top: 70px;
+    margin-bottom: 8px;
+  }
+  
+  .header nav {
+    height: 100%;
+  }
+  
+  .header ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header li {
+    margin: 0 1em;
+    font-size: 14px;
+  }
+  .header a{
+    color:white;
+    text-decoration: none;
+  }
+
+  
+  .header a:hover
+  {
+    color: #062247;
+    padding-bottom: 0.25rem;
+    border-bottom: 4px solid #062247;
+  }
+  .header a:active
+  {
+    color: #062247;
+    padding-bottom: 0.25rem;
+    border-bottom: 4px solid #062247;
+  }
+  .statusp 
+{
+    margin-top:0px;
+    text-align:center;
+    font-size:16px;
+    font-family:sans-serif;
+    margin:22px 17px 8px;
+    padding:0px 5px;
+    color:#202020;
+}
+  .container1 {
+    display: flex;
+    justify-content: center;
+  }
+  .header a.active {
+    color: #062247;
+    padding-bottom: 0.25rem;
+    border-bottom: 4px solid #062247;
+  }
+
+  .scale
+  {
+    margin-top: 340px;
+  }
+  .badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    background-color: #172c50;
+      font-size: 12px;
+      background: #172c50;
+      color: #fff;
+      padding: 0 5px;
+      vertical-align: top;
+      margin-left: -10px; 
+  }
+  
+
+
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .statusp 
+    {
+        margin-top:30px;
+        text-align:center;
+        font-size:10px;
+        font-family:sans-serif;
+        margin:22px 17px 8px;
+        padding:0px 5px;
+        color:#202020;
+    }
+    .scale {
+      margin-top: 30px;
+      height:70px;
+      border:1px solid black;
+      background-color: black;
+      font-size: 8px;
+      padding-top:15px;
+      text-align: center;
+      color:black;
+      padding: 20px;
+      left: 0;
+      width: 100%;
+      bottom: 0;
+      position: fixed;
+    }
+    .scale p
+    {
+      margin-top: 10px;
+      font-size: 11px;
+      color:white;
+      background-color: black;
+    }
+
+    .scrap
+    {
+      position: relative;
+      /* left:10%; */
+      text-decoration: none;
+      color:black;
+      outline: none;
+      text-align:center;
+      top:-5px;
+      font-weight:600;
+      font-size:16px;
+      letter-spacing:0.3em;
+    }
+    .column {
+      width: 50%;
+    }
+    .header li {
+      margin: 0.3em;
+      font-size: 11px;
+    }
+    .header
+    {
+      position:relative;
+      top:-60px
+    }
+    .offline
+    {
+      position: relative;
+      left: -120px;
+      /* margin-left: -190px; */
+      font-size: 9px;
+    }
+    .tag1
+    {
+      /* margin-left: 10px; */
+      font-size: 8px;
+    }
+    .tag2
+    {
+      position: relative;
+      left: -340px;
+      width:40px;
+      height:40px
+    }
+  }
+  @media (min-width:260px) and (max-width:800px) {
+    .offline
+    {
+      top: 70px;
+      position: relative;
+      left: -53px;
+      /* margin-left: -190px; */
+      font-size: 9px;
+    }
+    .tag1
+    {
+      /* margin-left: 10px; */
+      font-size: 8px;
+    }
+    .tag2
+    {
+      position: relative;
+      left: -340px;
+      width:40px;
+      height:40px
+    }
+    .scale {
+      margin-top: 20px;
+      height:70px;
+      border:1px solid black;
+      background-color: black;
+      font-size: 11px;
+      padding-top:15px;
+      text-align: center;
+      color:black;
+      padding: 20px;
+      left: 0;
+      width: 100%;
+      bottom: 0;
+      position: fixed;
+    }
+    .scrap
+    {
+      position: relative;
+      left:-17%;
+      text-decoration: none;
+      color:black;
+      outline: none;
+      text-align:center;
+      top:-5px;
+      font-weight:600;
+      font-size:16px;
+      letter-spacing:0.3em;
+    }
+    .scale p
+    {
+      margin-top: 5px;
+      font-size: 14px;
+      color:white;
+      background-color: black;
+    }
+    .header
+    {
+      position:relative;
+      top:-60px
+    }
+    .menu
+    {
+      display: none;
+    }
+    .section img
+    {
+      height: 92px;
+      width:207px;
+    }
+    .column {
+      float: left;
+      width: 49.33%;
+      height:13%;
+      margin:0px
+    }
+  }

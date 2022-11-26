@@ -1,0 +1,34 @@
+.main { 
+    width: 500px;
+    /* margin: 0 auto; */
+    margin:0%;
+    padding:0%
+}
+.sidebar    {
+    width: 240px;
+    height: 20px;
+    float: left;
+    font-size: 13px;
+
+}
+
+.page  {
+
+    height: 20px;
+    margin-left: 420px;
+    font-size: 13px;
+}
+
+@media (min-width:260px) and (max-width:800px){
+  .page p
+  {
+      margin-left: -70px;
+  }
+    
+  .joined
+  {
+      /* margin-top: 14px; */
+      position:relative;
+      top:10px
+  }
+}
